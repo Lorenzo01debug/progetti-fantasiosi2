@@ -6,10 +6,15 @@
         <app-project
           [project]="project"
           (select)="onSelectProject($event)"
+          class="project"
         ></app-project>
+        @if (selectedProject) {
+        <app-descriptions
+          [projectId]="selectedProject.id"
+          class="description"
+        />
+        }
       </li>
-      } @if (selectedProject) {
-      <app-descriptions [projectId]="selectedProject.id" />
       }
     </ul>
   </div>
