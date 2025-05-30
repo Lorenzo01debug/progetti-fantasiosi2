@@ -8,7 +8,7 @@
           (select)="onSelectProject($event)"
           class="project"
         ></app-project>
-        @if (selectedProject) {
+        @if (selectedProject && project.id == selectedProject.id) {
         <app-descriptions
           [projectId]="selectedProject.id"
           class="description"
