@@ -1,0 +1,16 @@
+.image {
+  height: 200px;
+  width: 200px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+.title{
+  font-size: 48px;
+  font-family: 'Arial', sans-serif;
+  font-weight: bold;
+  text-align: bottom;
+}
+.title:hover {
+  color: #3498db;
+  transform: scale(1.1);
+}

@@ -1,0 +1,7 @@
+.container {
+  display: grid;
+  text-align: center;
+}
+main{
+    background-color: chocolate;
+}
