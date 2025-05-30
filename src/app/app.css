@@ -3,8 +3,8 @@
 }
 
 li {
-  display: flex;
   width: 100%;
+  text-align: center;
 }
 
 li .description {
@@ -21,4 +21,9 @@ li .project {
 
 main{
     background-color: chocolate;
+}
+
+.fix {
+  display: flex;
+  text-align: start;
 }
