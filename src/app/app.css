@@ -1,7 +1,29 @@
 .container {
   display: grid;
+}
+
+li {
+  width: 100%;
   text-align: center;
 }
+
+li .description {
+  flex: 1;
+  width: 40%;
+  text-align: justify;
+  justify-content: center;
+  padding: 10px;
+}
+
+li .project {
+  width: 60%;
+}
+
 main{
     background-color: chocolate;
+}
+
+.fix {
+  display: flex;
+  text-align: start;
 }
